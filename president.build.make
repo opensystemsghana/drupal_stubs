@@ -94,7 +94,7 @@ projects[drupal][version] = "7.19"
 ; Download the Commons install profile and recursively build all its dependencies.
 projects[openpublic][type] = "profile"
 projects[openpublic][download][type] = "git"
-projects[openpublic][download][url] = "git@president.github.com:opensystemsghana/drupal_stubs.git"
+projects[openpublic][download][url] = "git@president.github.com:opensystemsghana/president.git"
 projects[openpublic][download][branch] = "master"
 ; projects[openpublic][version] = "1.0-beta14"
 
