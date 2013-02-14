@@ -93,7 +93,7 @@ projects[drupal][version] = "7.19"
 
 ; Include the definition of how to build Drupal core directly, including patches.
 
-includes[] = "drupal-org-core.make"
+; includes[] = "drupal-org-core.make"
 
 ; Download the Commons install profile and recursively build all its dependencies.
 
