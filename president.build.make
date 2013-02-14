@@ -99,7 +99,7 @@ projects[openpublic][download][branch] = "master"
 projects[openpublic][version] = "1.0-beta14"
 
 ; Include the definition of how to build Drupal core directly, including patches.
-includes[] = drupal-org-core.make
+; includes[] = drupal-org-core.make
 
 ;******************************************************************************
 ;                               Authentication
