@@ -93,14 +93,14 @@ api = "2"
 
 ; Download the Commons install profile and recursively build all its dependencies.
 
+; Include the definition of how to build Drupal core directly, including patches.
+includes[] = drupal-org-core.make
+
 projects[openpublic][type] = "profile"
 projects[openpublic][download][type] = "git"
 projects[openpublic][download][url] = "git@president.github.com:opensystemsghana/drupal_stubs.git"
 projects[openpublic][download][branch] = "master"
-
-
-; Include the definition of how to build Drupal core directly, including patches.
-; includes[] = "drupal-org-core.make"
+projects[openpublic][version] = "1.0-beta9"
 
 ;******************************************************************************
 ;                               Authentication

@@ -91,16 +91,17 @@ projects[drupal][version] = "7.19"
 ; declared under the 'projects' key. The simplest declaration of a project
 ; looks like this:
 
+; Include the definition of how to build Drupal core directly, including patches.
+
+includes[] = "drupal-org-core.make"
+
 ; Download the Commons install profile and recursively build all its dependencies.
 
 projects[commons][type] = "profile"
 projects[commons][download][type] = "git"
 projects[commons][download][url] = "git@agriex.github.com:opensystemsghana/drupal_stubs.git"
 projects[commons][download][branch] = "master"
-; projects[commons][version] = "7.x-3.x"
-
-; Include the definition of how to build Drupal core directly, including patches.
-; includes[] = "drupal-org-core.make"
+projects[commons][version] = "7.x-3.x"
 
 ;******************************************************************************
 ;                               Authentication
