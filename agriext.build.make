@@ -77,7 +77,7 @@ api = "2"
 ; alternative core projects like Pressflow. Note that the makefile included with
 ; install profiles *should not* include a core project.
 
-projects[drupal][type] = "core"
+; projects[drupal][type] = "core"
 projects[drupal][version] = "7.19"
 
 
@@ -99,7 +99,7 @@ projects[commons][download][url] = "git@agriex.github.com:opensystemsghana/drupa
 projects[commons][download][branch] = "master"
 
 ; Include the definition of how to build Drupal core directly, including patches.
-includes[] = "drupal-org-core.make"
+; includes[] = "drupal-org-core.make"
 
 ;******************************************************************************
 ;                               Authentication
