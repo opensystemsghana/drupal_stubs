@@ -96,7 +96,7 @@ projects[openpublic][type] = "profile"
 projects[openpublic][download][type] = "git"
 projects[openpublic][download][url] = "git@president.github.com:opensystemsghana/drupal_stubs.git"
 projects[openpublic][download][branch] = "master"
-projects[openpublic][version] = "1.0-beta14"
+; projects[openpublic][version] = "1.0-beta14"
 
 ; Include the definition of how to build Drupal core directly, including patches.
 ; includes[] = drupal-org-core.make
