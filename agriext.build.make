@@ -97,6 +97,7 @@ projects[commons][type] = "profile"
 projects[commons][download][type] = "git"
 projects[commons][download][url] = "git@agriex.github.com:opensystemsghana/drupal_stubs.git"
 projects[commons][download][branch] = "master"
+; projects[commons][version] = "7.x-3.x"
 
 ; Include the definition of how to build Drupal core directly, including patches.
 ; includes[] = "drupal-org-core.make"
