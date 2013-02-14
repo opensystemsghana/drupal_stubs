@@ -78,7 +78,7 @@ api = "2"
 ; install profiles *should not* include a core project.
 
 ; projects[drupal][type] = "core"
-projects[drupal][version] = "7.19"
+; projects[drupal][version] = "7.19"
 
 
 ;******************************************************************************
