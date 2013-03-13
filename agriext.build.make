@@ -89,8 +89,8 @@ projects[drupal][version] = "7.19"
 
 projects[commons][type] = "profile"
 projects[commons][download][type] = "git"
-projects[commons][download][url] = "git@github.com:rtrvrtg/drupal-commons.git"
-projects[commons][download][branch] = "7.x-3.x-fetchable"
+projects[commons][download][url] = "git@agriex.github.com:opensystemsghana/agriex.git"
+projects[commons][download][branch] = "master"
 projects[commons][version] = "7.x-3.x"
 
 ;******************************************************************************
