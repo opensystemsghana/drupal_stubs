@@ -61,14 +61,14 @@
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
 
-core = 7.x
+core = "7.x"
 
 ; API version
 ; -----------
 ; Every makefile needs to declare it's Drush Make API version. This version of api = "2"
 ; drush 5.x commands/make/make.drush.inc uses API version '2'.
 
-api = 2
+api = "2"
 
 ;******************************************************************************
 ;                               Include files
@@ -83,6 +83,7 @@ api = 2
 ; Include the definition of how to build Drupal core directly, including patches.
 
 ;includes[] = "drupal-org-core.make"
+projects[drupal][version] = "7.19"
 
 ; Download the Commons install profile and recursively build all its dependencies.
 
